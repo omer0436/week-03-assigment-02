@@ -1,0 +1,47 @@
+.container{
+margin: 0px;
+padding: 0px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+#ucgen{
+    width: 0;
+    height: 0;
+    border-bottom: 375px solid rgb(181, 56, 11);
+    border-left: 550px solid transparent;
+    border-right: 550px solid transparent;
+    margin-top: 10px;
+  }
+#wall{ 
+    width: 1091px;
+    height:420px;
+    border: 5px solid rgb(72, 128, 16);
+    display: flex;
+    justify-content: space-between;
+}  
+.window-left{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    flex: 1;
+  
+    
+    
+
+}
+.door{
+    background-color: rgb(93, 10, 10);
+    justify-content: center;
+    align-self: center;
+    align-items: flex-end;
+    
+}
+.window-right{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    flex: 2;
+}
